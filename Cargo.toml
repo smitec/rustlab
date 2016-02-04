@@ -1,0 +1,11 @@
+[package]
+name = "rustlab"
+version = "0.1.0"
+authors = ["Elliot Smith <elliot.smith91@gmail.com>"]
+
+[dependencies]
+libc="0.2.4"
+
+[lib]
+name="rustlab"
+crate-type=["staticlib"]
