@@ -43,10 +43,10 @@ fn multiply_safe(a : Vec<f64>, b : Vec<f64>) -> Vec<f64> {
 
 #[test]
 fn it_works() {
-    let a : vec<f64> = vec![1f64, 2f64, 3f64];
-    let b : vec<f64> = vec![3f64, 2f64, 1f64];
-    let c : vec<f64> = multiply_safe(a, b);
-    let expected : vec<f64> = vec![3f64, 4f64, 3f64];
+    let a : Vec<f64> = vec![1f64, 2f64, 3f64];
+    let b : Vec<f64> = vec![3f64, 2f64, 1f64];
+    let c : Vec<f64> = multiply_safe(a, b);
+    let expected : Vec<f64> = vec![3f64, 4f64, 3f64];
 
     assert!(c.len() == expected.len());
     
