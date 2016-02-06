@@ -8,4 +8,4 @@ libc="0.2.4"
 
 [lib]
 name="rustlab"
-crate-type=["staticlib"]
+crate-type=["staticlib", "dylib"]

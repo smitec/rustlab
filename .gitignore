@@ -2,3 +2,6 @@ target
 Cargo.lock
 
 *.swp
+*.a
+*.mex*
+*.dylib
